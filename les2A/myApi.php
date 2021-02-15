@@ -1,6 +1,5 @@
 <?php
         
-        
         // Report all errors
         // Dit is nu handig bij het testen
         // In een productie omgeving doe je dit niet of anders
@@ -11,7 +10,6 @@
         // my API reageert op GET en POST requests
         print "<h3>hello from myAPI !!</h3>"; // say hello to client
      
-        
         $myTime = time(); // get the server time
 
 		if (!empty($_GET['data'])){  
@@ -31,14 +29,16 @@
                  // hier moet jij zelf code schrijven
                     
                 case "easter egg":
-                    print " <br> hier moet jij zelf code schrijven";
+                    print " <br>Hey look its a 🥚";
                     break;
-                case "bedenk zelf een code":
-                    // jouw code hier
+                case "car":
+                    print " <br>The 🏎️ goes vroom!";
                     break;
                   // einde eigen code  
                 default:
                     print "<h3>please read the manual for valid requests &#128540;</h3>";
             }
-        }     
+        }        
 ?>
+
+
