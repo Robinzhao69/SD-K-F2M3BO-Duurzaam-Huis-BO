@@ -56,3 +56,5 @@ if (!empty($_GET['data'])){
             }
         }  
  ```
+
+link naar les2: http://31716.hosts1.ma-cloud.nl/SD-K-F2M3BO-Duurzaam-Huis-BO/les2A/testMyApi.html
