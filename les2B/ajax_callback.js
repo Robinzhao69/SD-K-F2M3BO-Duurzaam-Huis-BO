@@ -1,4 +1,5 @@
 
+
 function makeAjaxCall(url, methodType){
    let promiseObj = new Promise(function(resolve, reject){
          console.log(url); // debug

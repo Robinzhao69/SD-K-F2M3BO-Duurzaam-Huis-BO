@@ -16,6 +16,14 @@
             <input type = "text" name = "data" id="myTextInput">
             <input type = "button" id = "myButton" value = "Submit HTTP GET AJAX ">
             <img src="duurzaam_huis_logo.png" width="200" alt="logo" title="logo">
+            <h2>List of commands</h2>
+            <ul>
+              <li>pi</li>
+              <li>time</li>
+              <li>car</li>
+              <li>easter egg</li>
+              <li>server</li>
+            </ul>
        </fieldset>
     </form>
     <div id="antwoordHier"></div>
@@ -35,6 +43,7 @@
           // voorbeeld http_Get_String = myApi.php?data=qwerty 
           console.log(http_Get_String); // debug
           makeAjaxCall(http_Get_String, 'GET'). then (writeData); // doe het HTTP request
+          alert("beep boop...")
       }
 
       function writeData(dataVanServer){
